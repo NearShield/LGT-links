@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>LGT Pitch Deck – Let's Grow Together</title>
+    <meta name="description" content="LGT pitch deck: zero‑cost reward pools for crypto projects. Live on Base, TGE August 25, 2026.">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(135deg, #0a0f1a 0%, #0b1525 100%);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #eef5ff;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .deck-card {
+            background: rgba(18, 25, 40, 0.7);
+            backdrop-filter: blur(4px);
+            border-radius: 2rem;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            transition: transform 0.2s;
+        }
+        .deck-card:hover {
+            border-color: rgba(0, 212, 255, 0.5);
+        }
+        h1 {
+            font-size: 2.2rem;
+            background: linear-gradient(135deg, #ffffff, #00d4ff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+            margin: 1.5rem 0 1rem;
+            color: #00d4ff;
+            border-left: 4px solid #00d4ff;
+            padding-left: 1rem;
+        }
+        .tag {
+            background: #00d4ff20;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #00d4ff;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        ul, .feature-list {
+            list-style: none;
+            margin: 1rem 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        li::before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+        .stat {
+            background: #0f172a;
+            padding: 1rem;
+            border-radius: 1rem;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .token-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            background: #0f172a;
+            border-radius: 1rem;
+            overflow: hidden;
+        }
+        .token-table th, .token-table td {
+            padding: 0.8rem;
+            text-align: left;
+            border-bottom: 1px solid #1e2a4a;
+        }
+        .token-table th {
+            background: #1e2a4a;
+            color: #00d4ff;
+        }
+        .footer-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .btn {
+            background: #0f172a;
+            border: 1px solid #1e2a4a;
+            border-radius: 60px;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            color: #eef5ff;
+            transition: all 0.2s;
+        }
+        .btn:hover {
+            background: #1e2a4a;
+            border-color: #00d4ff;
+        }
+        @media (max-width: 600px) {
+            .grid-2 { grid-template-columns: 1fr; }
+            .deck-card { padding: 1.2rem; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="deck-card" style="text-align: center;">
+        <h1>🌱 LGT – Let's Grow Together</h1>
+        <p style="font-size: 1.2rem; margin-top: 0.5rem;">Zero‑cost reward pools for crypto projects</p>
+        <div class="tag">DeFi</div>
+        <div class="tag">SocialFi</div>
+        <div class="tag">Base</div>
+    </div>
+
+    <div class="deck-card">
+        <h2>❌ Problem</h2>
+        <ul>
+            <li>High marketing fees – projects can't afford meaningful community rewards.</li>
+            <li>No easy, non‑custodial way to run onchain incentive campaigns.</li>
+            <li>New tokens struggle to build initial liquidity without high cost.</li>
+        </ul>
+    </div>
+
+    <div class="deck-card">
+        <h2>✅ Solution – LGT Reward Pools</h2>
+        <p><strong>Three pool types for projects:</strong></p>
+        <ul>
+            <li><strong>Standard Pool:</strong> Projects pay refundable creation fee; users deposit USDC → earn $LGT (2x–5x multiplier). 20% of deposits → free marketing for project, 75% → $LGT liquidity.</li>
+            <li><strong>Public Pool:</strong> No deposit cap, random multiplier 1x–7x, opens only when no project pools are active.</li>
+            <li><strong>Dual‑Token Pool:</strong> Project contributes USDC + its own token. Users earn both $LGT and project token. 30% to project revenue, 40% buys project token (buy pressure), 30% to $LGT liquidity.</li>
+        </ul>
+    </div>
+
+    <div class="deck-card">
+        <h2>📈 Traction & Milestones</h2>
+        <div class="grid-2">
+            <div class="stat"><div class="stat-number">Live</div><div>Base mainnet</div></div>
+            <div class="stat"><div class="stat-number">Smart contracts</div><div>Deployed & verified</div></div>
+            <div class="stat"><div class="stat-number">TGE</div><div>August 25, 2026</div></div>
+            <div class="stat"><div class="stat-number">Listing price</div><div>$1 / $LGT</div></div>
+        </div>
+        <p>Snapshot two weeks before TGE → total supply = 2× pre‑TGE distributed tokens. Market cap = pre‑TGE tokens × $1.</p>
+    </div>
+
+    <div class="deck-card">
+        <h2>💰 Tokenomics & Allocation</h2>
+        <table class="token-table">
+            <thead>
+                <tr><th>Allocation</th><th>Percentage</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Community (pre‑TGE via pools)</td><td>50%</td></tr>
+                <tr><td>Liquidity (post‑TGE)</td><td>20%</td></tr>
+                <tr><td>Team & advisors (12 months vesting)</td><td>5%</td></tr>
+                <tr><td>Marketing & ecosystem fund</td><td>15%</td></tr>
+                <tr><td>Treasury</td><td>5%</td></tr>
+                <tr><td>VC / Strategic investors</td><td>5%</td></tr>
+                <tr><td><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+            </tbody>
+        </table>
+        <p><em>Community tokens vest linearly over 6 months. Team & VC tokens have 12‑month cliff.</em></p>
+    </div>
+
+    <div class="deck-card">
+        <h2>🚀 Market Opportunity</h2>
+        <p>DeFi reward pool market projected to grow from $2.9B to over $13B by 2033. LGT is first on Base to offer zero‑cost project pools + dual‑token rewards + built‑in liquidity bootstrapping.</p>
+    </div>
+
+    <div class="deck-card">
+        <h2>👥 Team</h2>
+        <p><strong>Saeid farzami (eng name:Andrei) (Founder & CEO)</strong> – game & web creator, built web3 wallet (unpublished). First crypto project launched. Passionate about community‑owned DeFi.</p>
+        <p><em>Technical co‑founder / lead developer to be hired post‑funding.</em></p>
+    </div>
+
+    <div class="deck-card">
+        <h2>🔮 Ask & Use of Funds</h2>
+        <p><strong>Raising $50,000 at $1M pre‑money valuation (SAFT).</strong></p>
+        <ul>
+            <li>Marketing & user acquisition – $20k</li>
+            <li>Smart contract audit – $15k</li>
+            <li>Team expansion (developer + community manager) – $10k</li>
+            <li>Operational & legal – $5k</li>
+        </ul>
+    </div>
+
+    <div class="deck-card" style="text-align: center;">
+        <h2>📢 Try LGT Now</h2>
+        <div class="footer-links">
+            <a href="https://farcaster.xyz/miniapps/kVXk4SxdGTx9/lgt-app" class="btn" target="_blank">📱 Farcaster Mini‑App</a>
+            <a href="https://base.app/app/miniapp-generator-fid-405796-260521121648794.neynar.app" class="btn" target="_blank">🟦 Base Mini‑App</a>
+            <a href="https://x.com/LGT_project" class="btn" target="_blank">🐦 X (Twitter)</a>
+        </div>
+        <p style="margin-top: 1.5rem;">👉 Deck link for forms: <code>https://lgt-links.vercel.app/deck</code></p>
+    </div>
+</div>
+</body>
+</html>
