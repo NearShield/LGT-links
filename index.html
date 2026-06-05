@@ -32,15 +32,16 @@
             margin: 0 auto;
         }
 
-        /* header */
         .header {
             text-align: center;
             margin-bottom: 2rem;
         }
 
-        .logo {
-            font-size: 3.5rem;
-            margin-bottom: 0.5rem;
+        .logo img {
+            max-width: 120px;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
         }
 
         h1 {
@@ -67,7 +68,24 @@
             border-radius: 3px;
         }
 
-        /* section base */
+        /* New deck button */
+        .deck-button {
+            display: inline-block;
+            background: #00d4ff20;
+            border: 1px solid #00d4ff;
+            border-radius: 60px;
+            padding: 0.5rem 1.2rem;
+            margin-top: 1rem;
+            text-decoration: none;
+            color: #00d4ff;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .deck-button:hover {
+            background: #00d4ff40;
+            transform: translateY(-2px);
+        }
+
         .card {
             background: rgba(18, 25, 40, 0.7);
             backdrop-filter: blur(4px);
@@ -153,14 +171,6 @@
             font-size: 1.3rem;
         }
 
-        .badge {
-            background: #00d4ff20;
-            padding: 0.2rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.7rem;
-            color: #00d4ff;
-        }
-
         .small-note {
             font-size: 0.8rem;
             color: #8e9aaf;
@@ -177,27 +187,24 @@
         }
 
         @media (max-width: 500px) {
-            body {
-                padding: 1rem;
-            }
-            .card {
-                padding: 1.2rem;
-            }
-            h1 {
-                font-size: 1.7rem;
-            }
+            body { padding: 1rem; }
+            .card { padding: 1.2rem; }
+            h1 { font-size: 1.7rem; }
+            .logo img { max-width: 90px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-           <div class="logo">
-    <img src="https://raw.githubusercontent.com/NearShield/LGT-links/main/IMG_6572.PNG" alt="LGT Logo" style="width: 150px; height: auto; border-radius: 20px;">
-</div>
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/NearShield/LGT/main/IMG_6572.PNG" alt="LGT Logo">
+            </div>
             <h1>LGT – Let's Grow Together</h1>
             <div class="tagline">Community-driven DeFi on Base | Zero-cost reward pools</div>
             <div class="divider"></div>
+            <!-- NEW DECK BUTTON -->
+            <a href="/deck" class="deck-button">📊 View Pitch Deck →</a>
         </div>
 
         <!-- description card -->
